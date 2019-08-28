@@ -1,0 +1,18 @@
+1：sudo -i
+
+
+2：wget -N --no-check-certificate https://raw.githubusercontent.com/Fun... && bash bbr.sh install
+
+蓝色窗口按TAB键选NO
+
+选择重启 Y
+
+
+3：sudo -i
+
+
+4：bash bbr.sh start
+
+5：wget --no-check-certificate https://raw.githubusercontent.com/ted... && chmod +x shadowsocksR.sh
+
+6：./shadowsocksR.sh

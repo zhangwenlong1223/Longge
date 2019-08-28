@@ -1,0 +1,7 @@
+Congratulations, ShadowsocksR server install completed!
+Your Server IP        :  35.200.63.223 
+Your Server Port      :  321 
+Your Password         :  tooice001 
+Your Protocol         :  origin 
+Your obfs             :  plain 
+Your Encryption Method:  aes-256-cfb 

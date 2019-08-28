@@ -1,0 +1,39 @@
+流程：
+1.	创建谷歌云：打开谷歌云，创建新账号，选择美国，生成自动地址，选择信用卡信息，输入有效期截止，账号，后侧后3位验证码。
+2.	Cpu-内存-选择最低配置，防火墙：http-https选项打钩。创建
+3.	进入谷歌云，下拉菜单查看余额，下拉菜单，找到Compute Engine – VM实例，新建实例，选择地区，测试延迟（www.ipip.net-工具-TRACE ROUTE-选择离地区近），不超过100ms。
+4.	单击ssh后侧三角符号，在浏览器运行虚拟机，输入以下代码。
+
+虚拟机代码输入：
+1.
+sudo -i
+<获得root权限>
+2.
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
+<安装ssr程序>
+3.
+./shadowsocksR.sh
+<系统安装过程中出现蓝屏，选择no，过程输入密码以及端口，其余默认即可>
+
+ 4.
+sudo -i
+5.
+yum -y install wget
+6.
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+《安装完毕重启，关闭重新打开，获得权限，运行第六步，开启7.》
+7.
+先输入2，安装 BBRplus版内核，安装完之后重启系统，再运行脚本，输入7，使用BBRplus版加速，一键安装，很方便
+
+谷歌邮箱：TOOICEERP@gmail.com
+
+密码：54Tooice
+
+节点：
+Congratulations, ShadowsocksR server install completed!
+Your Server IP        :  35.200.63.223 
+Your Server Port      :  321 
+Your Password         :  tooice001 
+Your Protocol         :  origin 
+Your obfs             :  plain 
+Your Encryption Method:  aes-256-cfb
